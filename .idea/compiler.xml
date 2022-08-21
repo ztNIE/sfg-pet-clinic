@@ -20,7 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pet-data" options="-parameters" />
       <module name="pet-web" options="-parameters" />
-      <module name="sfg-pet-clinic" options="-parameters" />
+      <module name="sfg-pet-clinic" options="" />
     </option>
   </component>
 </project>
