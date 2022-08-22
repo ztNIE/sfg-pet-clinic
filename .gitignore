@@ -57,6 +57,7 @@ local.properties
 *.ipr
 *.ids
 *.orig
+*/jpa-buddy.xml
 
 ######################
 # Visual Studio Code
