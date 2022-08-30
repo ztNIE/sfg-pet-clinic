@@ -1,10 +1,12 @@
 package ztnie.spring.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import ztnie.spring.sfgpetclinic.model.Pet;
 import ztnie.spring.sfgpetclinic.services.CrudService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
     @Override
     public Set<Pet> findAll() {
